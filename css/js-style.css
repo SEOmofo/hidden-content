@@ -1,0 +1,20 @@
+﻿.content,
+.hidden .content {
+	display: none;
+}
+
+.visible .content {
+	display: block;
+}
+
+.trigger {
+	display: block;
+	color: blue;
+	text-decoration: underline;
+	cursor: pointer;
+	margin: 1em 0 0 0;
+}
+
+h1 {
+	margin: 0 0 .5em 0;
+}
