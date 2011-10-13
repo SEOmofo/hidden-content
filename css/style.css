@@ -1,0 +1,19 @@
+﻿body {
+	width: 40em;
+	margin: 2em auto;
+	overflow-y: scroll;
+	font-family: sans-serif;
+	color: #444;
+	background-color: #eee;
+}
+
+.article {
+	margin: 1em;
+	padding: 1em;
+	background-color: #fff;
+}
+
+h1 {
+	margin: .5em 0;
+	line-height: 1;
+}

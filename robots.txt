@@ -1,0 +1,4 @@
+# http://www.seomofo.com/advanced/do-not-let-google-crawl-javascript.html
+
+User-agent: *
+Disallow: /js/
