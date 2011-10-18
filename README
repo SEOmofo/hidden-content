@@ -9,9 +9,10 @@ of best practices that minimize the risks associated with DHTML, such as
 lower search engine rankings caused by search engines' inability to 
 understand JavaScript and DHTML. 
 
-For more information, see the original accompanying article: 
+For more information, see the original accompanying article:
 
-[Using JavaScript to Hide Content](http://sem-group.net/search-engine-optimization-blog/seo/using-javascript-to-hide-content/) 
+Using JavaScript to Hide Content: Advanced White Hat SEO? -
+http://sem-group.net/search-engine-optimization-blog/seo/using-javascript-to-hide-content/ 
 
 
 
@@ -26,12 +27,12 @@ User Experience
 
 Dynamic
 
-	Hidden content elements must have a visible state–a set of conditions 
+	Hidden content elements must have a visible state--a set of conditions 
 	under which the hidden content is visible and readable by Users. The 
 	visible state must be capable of being activated by a browser event. The 
 	event should be automatic (e.g., document.onload) or it should be 
-	triggered by Users’ actions (e.g., element.onclick). In the case of 
-	Users’ actions, the trigger element should be conspicuous and 
+	triggered by Users' actions (e.g., element.onclick). In the case of 
+	Users' actions, the trigger element should be conspicuous and 
 	intuitive. 
 
 Accessibility
@@ -43,7 +44,7 @@ Accessibility
 Progressive Enhancement
 
 	Hidden content must default to a visible state when rendered in a 
-	browser that either doesn’t support JavaScript or doesn’t have 
+	browser that either doesn't support JavaScript or doesn't have 
 	JavaScript enabled. A document in which all hidden content elements are 
 	in the default visible state should provide a User interface that is 
 	functional, cohesive, and reasonably intuitive. 
