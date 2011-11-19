@@ -1,4 +1,4 @@
-﻿.content,
+.content,
 .hidden .content {
 	display: none;
 }
@@ -7,12 +7,28 @@
 	display: block;
 }
 
+.master-container {
+	position: fixed;
+	top: 0;
+	left: 0;
+	margin: 2em 1em 1em 1em;
+	padding: 1em;
+	background-color: #fff;
+	-moz-box-shadow: 0 0 0 1em #eee;
+	-webkit-box-shadow: 0 0 0 1em #eee;
+	box-shadow: 0 0 0 1em #eee;
+}
+
 .trigger {
 	display: block;
 	color: blue;
 	text-decoration: underline;
 	cursor: pointer;
 	margin: 1em 0 0 0;
+}
+
+.master-container .trigger {
+	margin-top: 0;
 }
 
 h1 {
